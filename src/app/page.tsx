@@ -1,24 +1,60 @@
+import { Backdrop } from '@/components/atmosphere/Backdrop';
+import { Header } from '@/components/Header';
+import { Hero } from '@/components/Hero';
+import { ShortcutCards } from '@/components/ShortcutCards';
+import { StatCounters } from '@/components/StatCounters';
+import { LeadMagnetForm } from '@/components/LeadMagnetForm';
+import { PainSection } from '@/components/PainSection';
+import { ThreeStepInventory } from '@/components/ThreeStepInventory';
+import { BundlePreviewGrid } from '@/components/BundlePreviewGrid';
+import { BundlesMosaic } from '@/components/BundlesMosaic';
+import { InventoryBreakdown } from '@/components/InventoryBreakdown';
+import { OfferCard } from '@/components/OfferCard';
+import { ProofSection } from '@/components/ProofSection';
+import { OldVsNew } from '@/components/OldVsNew';
+import { BenefitGrid } from '@/components/BenefitGrid';
+import { ForYouQualifier } from '@/components/ForYouQualifier';
+import { FAQ } from '@/components/FAQ';
+import { Guarantee } from '@/components/Guarantee';
+import { FounderBio } from '@/components/FounderBio';
+import { TestimonialsFB } from '@/components/TestimonialsFB';
+import { FinalCTA } from '@/components/FinalCTA';
+import { Footer } from '@/components/Footer';
+import { CouponBanner } from '@/components/CouponBanner';
+import { StickyBottomBar } from '@/components/StickyBottomBar';
+import { TrustPulsePopup } from '@/components/TrustPulsePopup';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
-      <span className="pill mb-6">Coming soon</span>
-      <h1 className="max-w-2xl text-balance text-4xl md:text-6xl font-bold leading-tight">
-        Stop Creating. <span className="italic text-primary">Start Selling.</span>
-      </h1>
-      <p className="mt-5 max-w-xl text-balance text-lg text-body">
-        The NeuroSpicy Witch Vault is on its way. For the Divinely Distracted Goddesses &amp; Starseeds alike.
-      </p>
-      <p className="mt-10 text-sm text-body">
-        © 2026 NeuroSpicy Mystic | For the Divinely Distracted Goddesses &amp; Starseeds alike
-        <br />
-        <a href="mailto:support@neurospicymystic.com" className="text-primary-700 hover:underline">
-          support@neurospicymystic.com
-        </a>{' '}
-        ·{' '}
-        <a href="mailto:info@neurospicymystic.com" className="text-primary-700 hover:underline">
-          info@neurospicymystic.com
-        </a>
-      </p>
-    </main>
+    <>
+      <CouponBanner />
+      <Backdrop>
+        <Header />
+        <main>
+          <Hero />
+          <ShortcutCards />
+          <StatCounters />
+          <LeadMagnetForm />
+          <PainSection />
+          <ThreeStepInventory />
+          <BundlePreviewGrid />
+          <BundlesMosaic />
+          <InventoryBreakdown />
+          <OfferCard />
+          <ProofSection />
+          <OldVsNew />
+          <BenefitGrid />
+          <ForYouQualifier />
+          <FAQ />
+          <Guarantee />
+          <FounderBio />
+          <TestimonialsFB />
+          <FinalCTA />
+        </main>
+        <Footer />
+      </Backdrop>
+      <StickyBottomBar />
+      <TrustPulsePopup />
+    </>
   );
 }
