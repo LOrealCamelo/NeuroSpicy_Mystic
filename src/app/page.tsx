@@ -10,6 +10,7 @@ import { BundlePreviewGrid } from '@/components/BundlePreviewGrid';
 import { BundlesMosaic } from '@/components/BundlesMosaic';
 import { InventoryBreakdown } from '@/components/InventoryBreakdown';
 import { OfferCard } from '@/components/OfferCard';
+import { BundleRoadmap } from '@/components/BundleRoadmap';
 import { ProofSection } from '@/components/ProofSection';
 import { OldVsNew } from '@/components/OldVsNew';
 import { BenefitGrid } from '@/components/BenefitGrid';
@@ -41,6 +42,7 @@ export default function Home() {
           <BundlesMosaic />
           <InventoryBreakdown />
           <OfferCard />
+          <BundleRoadmap />
           <ProofSection />
           <OldVsNew />
           <BenefitGrid />
