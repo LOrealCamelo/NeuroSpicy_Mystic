@@ -329,8 +329,8 @@ export const FOOTER_LINKS = {
   ],
   social: [
     { label: 'TikTok @neurospicy_mystic', href: 'https://tiktok.com/@neurospicy_mystic' },
-    { label: 'Instagram', href: 'https://instagram.com/neurospicy_mystic' }, // [REVIEW] confirm IG handle
-    { label: 'YouTube', href: 'https://youtube.com/@neurospicy_mystic' }, // [REVIEW] confirm YT handle
-    { label: 'Facebook', href: 'https://facebook.com/neurospicy_mystic' }, // [REVIEW] confirm FB handle
+    { label: 'YouTube @neurospicy_mystic', href: 'https://youtube.com/@neurospicy_mystic' },
+    { label: 'Facebook · NeuroSpicyMystic', href: 'https://www.facebook.com/NeuroSpicyMystic/' },
+    { label: 'Chirp · usemylink', href: 'https://chirp.me/usemylink' },
   ],
 };
