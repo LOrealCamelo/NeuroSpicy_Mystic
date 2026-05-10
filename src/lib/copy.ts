@@ -297,7 +297,7 @@ export const REWARD_TIERS = [
 ];
 
 export const SOCIAL_FEED_LINKS = {
-  chirp: 'https://chirp.me/usemylink', // [REVIEW] confirm
+  chirp: 'https://chirp.com/usemylink', // [REVIEW] confirm
   stan: 'https://stan.store/neurospicymystic', // [REVIEW] confirm
   tiktok: 'https://www.tiktok.com/@neurospicy_mystic', // [REVIEW] confirm handle
   youtube: 'https://www.youtube.com/@neurospicy_mystic', // [REVIEW] confirm handle
@@ -331,6 +331,6 @@ export const FOOTER_LINKS = {
     { label: 'TikTok @neurospicy_mystic', href: 'https://tiktok.com/@neurospicy_mystic' },
     { label: 'YouTube @neurospicy_mystic', href: 'https://youtube.com/@neurospicy_mystic' },
     { label: 'Facebook · NeuroSpicyMystic', href: 'https://www.facebook.com/NeuroSpicyMystic/' },
-    { label: 'Chirp · usemylink', href: 'https://chirp.me/usemylink' },
+    { label: 'Chirp · usemylink', href: 'https://chirp.com/usemylink' },
   ],
 };
