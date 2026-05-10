@@ -8,6 +8,12 @@ export type Product = {
   priceUsd: number;
   compareAtUsd?: number;
   stripePriceId: string;
+  /**
+   * Stripe Payment Link URL. If present, CTAs redirect here directly
+   * (no /api/checkout call). Comes from NEXT_PUBLIC_STRIPE_PAYMENT_LINK_*
+   * env vars so it's available client-side.
+   */
+  paymentLinkUrl?: string;
   badge?: ProductBadge;
   image: string;
   available: boolean;
@@ -27,6 +33,7 @@ export const products: Product[] = [
     priceUsd: 67,
     compareAtUsd: 97,
     stripePriceId: process.env.STRIPE_PRICE_WITCH_VAULT ?? '',
+    paymentLinkUrl: process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK_WITCH_VAULT,
     badge: 'BESTSELLER',
     image: '/products/witch-vault.png',
     available: true,

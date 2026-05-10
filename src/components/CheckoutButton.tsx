@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { getProductById } from '@/lib/products';
 
 type Props = {
   productId: string;
@@ -16,6 +17,15 @@ export function CheckoutButton({ productId, children, className = 'btn-primary',
   async function go() {
     setLoading(true);
     setError(null);
+
+    // Path A — Stripe Payment Link is set: redirect directly. Faster, no API.
+    const product = getProductById(productId);
+    if (product?.paymentLinkUrl) {
+      window.location.href = product.paymentLinkUrl;
+      return;
+    }
+
+    // Path B — fall back to programmatic Checkout Session via /api/checkout.
     try {
       const res = await fetch('/api/checkout', {
         method: 'POST',

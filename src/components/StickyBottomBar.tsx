@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { getProductById } from '@/lib/products';
 import { Sparkle } from './atmosphere/Sparkle';
 
 export function StickyBottomBar() {
@@ -16,6 +17,11 @@ export function StickyBottomBar() {
   }, []);
 
   const handleClick = () => {
+    const product = getProductById('witch-vault');
+    if (product?.paymentLinkUrl) {
+      window.location.href = product.paymentLinkUrl;
+      return;
+    }
     fetch('/api/checkout', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
@@ -39,7 +45,7 @@ export function StickyBottomBar() {
           <p className="text-2xs uppercase tracking-[0.18em] text-moonlight/70">Witch Vault</p>
           <p className="font-display text-2xl text-starlight">
             <span className="text-base text-moonlight/55 line-through">$97</span>{' '}
-            <span className="em-gold italic">$67</span>
+            <span className="em-magenta italic">$67</span>
           </p>
         </div>
         <button onClick={handleClick} className="btn-primary py-2.5 text-sm">
