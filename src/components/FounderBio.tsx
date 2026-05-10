@@ -29,7 +29,7 @@ export function FounderBio() {
                 Founder of NeuroSpicy Mystic, born clairvoyant, full-time priestess on TikTok &amp; Etsy. I built this vault for the version of me that wanted to start a digital business at midnight but couldn&rsquo;t open one more &ldquo;how to start a side hustle&rdquo; PDF.
               </p>
               <p className="mt-4 text-base leading-relaxed text-body">
-                If you&rsquo;re neurodivergent, divinely distracted, or just done watching everyone else launch — I made this for you. The whole inventory is rebrandable, resellable, and yours forever. You don&rsquo;t need a coach. You need a witch with the goods.
+                If you&rsquo;re AuDHD, neurodivergent, divinely distracted, or just done watching everyone else launch — I made this for you. Every template is rebrandable, resellable, and yours forever. You don&rsquo;t need a coach. You need a mystic with the goods.
               </p>
 
               <Filigree className="!my-6" />

@@ -10,7 +10,9 @@ import { BundlePreviewGrid } from '@/components/BundlePreviewGrid';
 import { BundlesMosaic } from '@/components/BundlesMosaic';
 import { InventoryBreakdown } from '@/components/InventoryBreakdown';
 import { OfferCard } from '@/components/OfferCard';
+import { RewardTiers } from '@/components/RewardTiers';
 import { BundleRoadmap } from '@/components/BundleRoadmap';
+import { AudioBookPreview } from '@/components/AudioBookPreview';
 import { ProofSection } from '@/components/ProofSection';
 import { OldVsNew } from '@/components/OldVsNew';
 import { BenefitGrid } from '@/components/BenefitGrid';
@@ -18,6 +20,7 @@ import { ForYouQualifier } from '@/components/ForYouQualifier';
 import { FAQ } from '@/components/FAQ';
 import { Guarantee } from '@/components/Guarantee';
 import { FounderBio } from '@/components/FounderBio';
+import { SocialFeed } from '@/components/SocialFeed';
 import { ReadingCallout } from '@/components/ReadingCallout';
 import { TestimonialsFB } from '@/components/TestimonialsFB';
 import { FinalCTA } from '@/components/FinalCTA';
@@ -43,7 +46,9 @@ export default function Home() {
           <BundlesMosaic />
           <InventoryBreakdown />
           <OfferCard />
+          <RewardTiers />
           <BundleRoadmap />
+          <AudioBookPreview />
           <ProofSection />
           <OldVsNew />
           <BenefitGrid />
@@ -51,6 +56,7 @@ export default function Home() {
           <FAQ />
           <Guarantee />
           <FounderBio />
+          <SocialFeed />
           <ReadingCallout />
           <TestimonialsFB />
           <FinalCTA />

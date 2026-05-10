@@ -11,7 +11,7 @@ export function FAQ() {
         <div className="mb-10 text-center">
           <p className="label-eyebrow mb-3">Frequently asked</p>
           <h2 className="text-balance font-display text-4xl text-starlight md:text-5xl">
-            Witches always wonder. <span className="em-gold italic">So we answered.</span>
+            Mystics always wonder. <span className="em-gold italic">So we answered.</span>
           </h2>
         </div>
 

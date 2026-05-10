@@ -5,7 +5,7 @@ export const HERO = {
   pill: 'For the Divinely Distracted',
   h1Top: 'Stop Creating.',
   h1Emph: 'Start Selling.',
-  sub: 'The 2027 vault of rebrandable digital templates for divinely distracted witches. 2,000+ templates · lifetime access · 100% profit on every resale.',
+  sub: 'The 2027 vault of rebrandable digital templates for divinely distracted goddesses. 2,000+ templates · lifetime access · 100% profit on every resale.',
   cta: 'Yes, I Want Instant Access',
   ctaSecondary: 'View what’s inside ↓',
   trust: ['One-time payment', 'No subscriptions', 'Instant download'],
@@ -62,7 +62,7 @@ export const THREE_STEPS = [
 ];
 
 export const BUNDLE_PREVIEWS = [
-  { title: 'Witchy Planners', tag: 'TOP ETSY SELLER', tagVariant: 'gold' as const, hue: 'primary' as const },
+  { title: 'Mystic Planners', tag: 'TOP ETSY SELLER', tagVariant: 'gold' as const, hue: 'primary' as const },
   { title: 'Manifestation Journals', tag: 'CANVA-READY', tagVariant: 'turquoise' as const, hue: 'emphasis' as const },
   { title: 'Tarot & Oracle Decks', tag: 'NEUROSPICY ORIGINAL', tagVariant: 'magenta' as const, hue: 'gold' as const },
   { title: 'Moon & Astrology', tag: '2027 EDITION', tagVariant: 'gold' as const, hue: 'primary' as const },
@@ -100,7 +100,7 @@ export const INVENTORY_CATEGORIES = [
     icon: '🗂️',
     title: 'Business & Productivity',
     items: [
-      'Witchy Planner + Calendar · Moon Planner · Moon & Astrology Planner 2027',
+      'Mystic Planner + Calendar · Moon Planner · Moon & Astrology Planner 2027',
       'Personal Growth Planner · Self Care Planner · Habit Trackers · Mood Trackers',
       'Etsy Shop Planner · Digital Product Planner · Handmade Business Planner',
       'Reading Planner · Journaling Planner · Life Planner · Mega Bundle of Trackers',
@@ -206,7 +206,7 @@ export const QUALIFIER = {
       'You want a low-pressure way to start digital products today',
       'You’re neurodivergent, ADHD, or just done with research-paralysis',
       'You want to sell on Etsy, TikTok Shop, Stan, or your own site',
-      'You like spiritual / witchy / mystical aesthetics',
+      'You like spiritual, intuitive, mystical aesthetics',
       'You want the master resell rights so you keep 100% forever',
     ],
   },
@@ -270,16 +270,52 @@ export const TESTIMONIAL_IMAGES = [
 ];
 
 export const TRUSTPULSE_EVENTS = [
-  { name: 'Marisa', city: 'Atlanta, GA', product: 'NeuroSpicy Witch Vault', minutesAgo: 3 },
-  { name: 'Jasmine', city: 'Brooklyn, NY', product: 'NeuroSpicy Witch Vault', minutesAgo: 12 },
-  { name: 'Briana', city: 'Houston, TX', product: 'NeuroSpicy Witch Vault', minutesAgo: 27 },
-  { name: 'Sade', city: 'Toronto, ON', product: 'NeuroSpicy Witch Vault', minutesAgo: 41 },
-  { name: 'Camila', city: 'Phoenix, AZ', product: 'NeuroSpicy Witch Vault', minutesAgo: 58 },
+  { name: 'Marisa', city: 'Atlanta, GA', product: 'NeuroSpicy Vault', minutesAgo: 3 },
+  { name: 'Jasmine', city: 'Brooklyn, NY', product: 'NeuroSpicy Vault', minutesAgo: 12 },
+  { name: 'Briana', city: 'Houston, TX', product: 'NeuroSpicy Vault', minutesAgo: 27 },
+  { name: 'Sade', city: 'Toronto, ON', product: 'NeuroSpicy Vault', minutesAgo: 41 },
+  { name: 'Camila', city: 'Phoenix, AZ', product: 'NeuroSpicy Vault', minutesAgo: 58 },
 ];
+
+export const REWARD_TIERS = [
+  {
+    spend: 39.99,
+    label: 'Free 15-min reading',
+    body: 'Spend $39.99 or more on this site and book a complimentary 15-minute reading with L’Oreal on Stan. Tarot, oracle, pendulum, or a single-question dowse — your pick.',
+    redeemNote: 'Code arrives in your order confirmation email. Redeemable on stan.store/neurospicymystic. Exclusive to neurospicymystic.com purchases — does not apply to Etsy or TikTok Shop orders.',
+    icon: '🔮',
+    accent: 'primary' as const,
+  },
+  {
+    spend: 69.99,
+    label: 'Pick a free gift',
+    body: 'Spend $69.99 or more and choose ONE: a free digital download (under $15.99), the free 15-minute reading, OR a $10-off coupon for your next purchase here.',
+    redeemNote: 'You’ll get a one-click pick-your-perk link in your order email. Combine sales / bundles to hit the threshold.',
+    icon: '✨',
+    accent: 'gold' as const,
+  },
+];
+
+export const SOCIAL_FEED_LINKS = {
+  chirp: 'https://chirp.me/usemylink', // [REVIEW] confirm
+  stan: 'https://stan.store/neurospicymystic', // [REVIEW] confirm
+  tiktok: 'https://www.tiktok.com/@neurospicy_mystic', // [REVIEW] confirm handle
+  youtube: 'https://www.youtube.com/@neurospicy_mystic', // [REVIEW] confirm handle
+};
+
+export const AUDIOBOOK = {
+  title: 'Sacred Waters: Bath Rituals',
+  byline: 'Audiobook + sticker book by L’Oreal',
+  status: 'In production · launching 2026',
+  cover: '/Sacred_bath_rituals_audiobook.png',
+  description:
+    'A guided audio journey through 12 sacred-water rituals — paired with an interactive sticker book you can flip through while you listen. NeuroSpicy original. AuDHD-friendly pacing. Real magic, no fluff.',
+  previewLengthSeconds: 30,
+};
 
 export const FOOTER_LINKS = {
   shop: [
-    { label: 'NeuroSpicy Witch Vault', href: '#offer' },
+    { label: 'NeuroSpicy Vault', href: '#offer' },
     { label: 'Free Money Spell Guide', href: '#money-spell' },
     { label: 'Stan Store · 1:1 readings', href: 'https://stan.store/neurospicy_mystic' }, // [REVIEW] confirm Stan URL
     { label: 'Etsy · NeuroSpicy Boutique', href: 'https://www.etsy.com/shop/NeuroSpicyBoutique' }, // [REVIEW] confirm Etsy URL

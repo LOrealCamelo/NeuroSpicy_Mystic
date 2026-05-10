@@ -42,7 +42,7 @@ export function StickyBottomBar() {
     >
       <div className="flex items-center justify-between gap-3 px-4 py-3">
         <div className="leading-tight">
-          <p className="text-2xs uppercase tracking-[0.18em] text-moonlight/70">Witch Vault</p>
+          <p className="text-2xs uppercase tracking-[0.18em] text-moonlight/70">NeuroSpicy Vault</p>
           <p className="font-display text-2xl text-starlight">
             <span className="text-base text-moonlight/55 line-through">$97</span>{' '}
             <span className="em-magenta italic">$67</span>

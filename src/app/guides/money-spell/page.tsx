@@ -48,7 +48,7 @@ export default function MoneySpellGuidePage() {
                 The Money Spell isn&rsquo;t a magic trick — it&rsquo;s a way of getting
                 your nervous system, your inbox, and the universe pointed at the same goal.
                 Read the whole guide before lighting anything. Have your journal,
-                a green or gold candle (any size — divinely-distracted-witch rules
+                a green or gold candle (any size — divinely-distracted-goddess rules
                 apply), and 12 minutes uninterrupted.
               </p>
 
@@ -64,7 +64,7 @@ export default function MoneySpellGuidePage() {
                 </li>
                 <li>
                   <strong>Light the candle.</strong> Speak the affirmation 3×.
-                  &ldquo;I am the witch who is paid for her work.&rdquo;
+                  &ldquo;I am the mystic who is paid for her work.&rdquo;
                 </li>
                 <li>
                   <strong>Visualize the receipt.</strong> Stripe email. Etsy notification.
@@ -80,7 +80,7 @@ export default function MoneySpellGuidePage() {
               <h2 className="mt-10 font-display text-3xl text-ink">After the spell</h2>
               <p>
                 Track it. Note the day, the affirmation, the action you took, and any
-                signs you notice in the next 7 days. The witches who keep records get
+                signs you notice in the next 7 days. The mystics who keep records get
                 the receipts.
               </p>
 
@@ -123,12 +123,12 @@ export default function MoneySpellGuidePage() {
             {/* Cross-sell */}
             <div className="mt-10 rounded-card border border-primary-300/30 bg-primary-50/40 p-6 text-center">
               <p className="text-sm text-ink">
-                Loved the spell? The full <strong>NeuroSpicy Witch Vault</strong> has a
+                Loved the spell? The full <strong>NeuroSpicy Vault</strong> has a
                 Money Mindset Planner, Abundance Journal, and Wealth Codes Guide that
                 pair with this ritual.
               </p>
               <Link href="/#offer" className="btn-primary mt-4 !text-sm">
-                <Sparkle size={11} variant="gold" /> Get the Witch Vault →
+                <Sparkle size={11} variant="gold" /> Get the NeuroSpicy Vault →
               </Link>
             </div>
           </div>

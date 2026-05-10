@@ -31,8 +31,8 @@ export type Product = {
 export const products: Product[] = [
   {
     id: 'witch-vault',
-    name: 'NeuroSpicy Witch Vault',
-    tagline: 'The 2027 rebrandable-templates vault for divinely distracted witches',
+    name: 'NeuroSpicy Vault',
+    tagline: 'The 2027 rebrandable-templates vault for divinely distracted goddesses',
     bullets: [
       '2,000+ rebrandable digital templates',
       'Lifetime access · sell as your own forever',
@@ -55,7 +55,7 @@ export const products: Product[] = [
     bullets: [
       'Step-by-step ritual + workbook',
       'NeuroSpicy original — written by L’Oreal',
-      'Pairs with the Witch Vault for full money-mindset alignment',
+      'Pairs with the NeuroSpicy Vault for full money-mindset alignment',
     ],
     priceUsd: 17,
     stripePriceId: process.env.STRIPE_PRICE_MONEY_SPELL ?? '',
@@ -106,9 +106,9 @@ export const products: Product[] = [
   {
     id: 'ceo-vault',
     name: 'CEO Vault (Kiana edition)',
-    tagline: 'The next-gen vault for young witchy creators',
+    tagline: 'The next-gen vault for young intuitive creators',
     bullets: [
-      'Curated by Kiana — Gen-Z witchy launches',
+      'Curated by Kiana — Gen-Z neurospicy launches',
       'Etsy + TikTok Shop ready from day one',
       'Drops 2027',
     ],

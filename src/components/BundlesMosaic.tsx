@@ -1,7 +1,7 @@
 import { Filigree } from './atmosphere/Filigree';
 
 const NICHES = [
-  'Witchy', 'Tarot', 'Moon', 'Astrology', 'Self-Care', 'Manifestation', 'Money',
+  'Mystic', 'Tarot', 'Moon', 'Astrology', 'Self-Care', 'Manifestation', 'Money',
   'Yoga', 'Chakra', 'Crystal', 'Prayer', 'Gratitude', 'Habit', 'Productivity',
   'Etsy', 'TikTok', 'Stan Store', 'Shopify', 'Recipe', 'Meal Prep', 'Fitness',
   'Mood Tracker', 'Vision Board', 'Reading List', 'Goal Setting', 'ADHD', 'Introvert',

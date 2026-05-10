@@ -27,7 +27,7 @@ export function Guarantee() {
             and we&rsquo;ll fix it the same day. Period.
           </p>
           <p className="mt-3 text-2xs uppercase tracking-[0.22em] text-body/70">
-            Real human support · Real witch on the other end
+            Real human support · Real mystic on the other end
           </p>
         </div>
       </div>

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: '%s · NeuroSpicy Mystic',
   },
   description:
-    'The 2027 vault of rebrandable digital templates for divinely distracted witches. 2,000+ templates, lifetime access, resell rights — keep 100% of every sale.',
+    'The 2027 vault of rebrandable digital templates for divinely distracted goddesses. 2,000+ templates, lifetime access, resell rights — keep 100% of every sale. AuDHD / neurodivergent / NeuroSpicy.',
   openGraph: {
     title: 'NeuroSpicy Mystic — Stop Creating. Start Selling.',
     description: 'For the Divinely Distracted Goddesses & Starseeds alike.',

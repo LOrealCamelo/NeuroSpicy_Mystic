@@ -7,8 +7,8 @@ export function ForYouQualifier() {
         <div className="mb-12 text-center">
           <p className="label-eyebrow mb-3">Be honest with yourself</p>
           <h2 className="text-balance font-display text-4xl text-starlight md:text-5xl">
-            This is for some witches.{' '}
-            <span className="em-magenta italic">Not every witch.</span>
+            This is for some mystics.{' '}
+            <span className="em-magenta italic">Not every soul.</span>
           </h2>
         </div>
 

@@ -134,7 +134,7 @@ function renderMoneySpellEmail({
 
       <p style="font-size: 15px; line-height: 1.55; color: #4B3F6A;">
         If the magic resonates, you&rsquo;ll love the full
-        <strong>NeuroSpicy Witch Vault</strong> &mdash; 2,000+ rebrandable templates,
+        <strong>NeuroSpicy Vault</strong> &mdash; 2,000+ rebrandable templates,
         lifetime access, 100% profit on every resale.
       </p>
 

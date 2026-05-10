@@ -179,7 +179,7 @@ export default async function SuccessPage({ searchParams }: Props) {
                   <li>• Open the Drive folder on a computer first — phone browsers occasionally choke on the folder view.</li>
                   <li>• Canva won&rsquo;t load? Sign into your Canva account in the same browser, then click the template link again.</li>
                   <li>• Zip won&rsquo;t open? Use the built-in Windows extractor, the Mac Archive Utility, or a free tool like 7-Zip / The Unarchiver.</li>
-                  <li>• Anything else: <a className="text-primary hover:underline" href="mailto:support@neurospicymystic.com">support@neurospicymystic.com</a> — real witch on the other end.</li>
+                  <li>• Anything else: <a className="text-primary hover:underline" href="mailto:support@neurospicymystic.com">support@neurospicymystic.com</a> — real mystic on the other end.</li>
                 </ul>
               </details>
             </div>
@@ -190,7 +190,7 @@ export default async function SuccessPage({ searchParams }: Props) {
             <div className="card-void p-8 md:p-12">
               <p className="label-eyebrow !text-gold-300 mb-3">Your Master Resell Rights</p>
               <h2 className="font-display text-3xl text-starlight md:text-4xl">
-                The <span className="em-gold italic">witchy fine print.</span>
+                The <span className="em-gold italic">mystic fine print.</span>
               </h2>
               <p className="mt-3 max-w-2xl text-sm text-moonlight/80">
                 Because the vault includes Master Resell Rights, you can rebrand and sell every

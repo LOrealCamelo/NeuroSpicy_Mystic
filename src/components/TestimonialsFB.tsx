@@ -9,7 +9,7 @@ export function TestimonialsFB() {
         <div className="mb-10 text-center">
           <p className="label-eyebrow mb-3">Real customers · Real screenshots</p>
           <h2 className="text-balance font-display text-4xl text-starlight md:text-5xl">
-            What real <span className="em-magenta italic">witches</span> say.
+            What real <span className="em-magenta italic">mystics</span> say.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-balance text-sm text-moonlight/65">
             These are real Facebook comments from L&rsquo;Oreal&rsquo;s customers.

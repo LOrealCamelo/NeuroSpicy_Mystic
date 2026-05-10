@@ -2,11 +2,10 @@
 
 import { useEffect, useState } from 'react';
 
-const COOKIE = 'witch30_dismissed';
+const COOKIE = 'mystic_perks_dismissed';
 
 export function CouponBanner() {
   const [visible, setVisible] = useState(false);
-  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (typeof document === 'undefined') return;
@@ -21,27 +20,19 @@ export function CouponBanner() {
     setVisible(false);
   };
 
-  const copy = () => {
-    navigator.clipboard.writeText('WITCH30');
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1800);
-  };
-
   return (
     <div className="fixed inset-x-0 top-0 z-50 border-b border-gold/30 bg-grad-aurora text-starlight">
       <div className="container-wide flex flex-wrap items-center justify-center gap-3 px-4 py-2 text-2xs uppercase tracking-[0.18em] md:text-xs">
         <span>
-          ✨ Extra 30% off with code{' '}
-          <span className="rounded-pill bg-void-900/40 px-2 py-0.5 font-mono text-gold-200">
-            WITCH30
-          </span>
+          ✨ Spend $39.99+ &rarr; <strong className="text-gold-200">free 15-min reading on Stan</strong>
+          <span className="hidden md:inline"> · spend $69.99+ &rarr; <strong className="text-gold-200">pick a free gift</strong></span>
         </span>
-        <button
-          onClick={copy}
+        <a
+          href="#perks"
           className="rounded-pill border border-starlight/40 bg-starlight/10 px-3 py-1 font-semibold transition-colors hover:bg-starlight/20"
         >
-          {copied ? 'Copied!' : 'Copy'}
-        </button>
+          See perks
+        </a>
         <button
           onClick={dismiss}
           aria-label="Dismiss banner"
