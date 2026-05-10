@@ -322,7 +322,8 @@ export const FOOTER_LINKS = {
   ],
   legal: [
     { label: 'Privacy Policy', href: '/privacy' },
-    { label: 'Terms', href: '/terms' },
+    { label: 'Terms of Service', href: '/terms' },
+    { label: 'PLR License', href: '/license' },
     { label: 'Refund Policy', href: '/refunds' },
     { label: 'Contact', href: 'mailto:support@neurospicymystic.com' },
   ],
