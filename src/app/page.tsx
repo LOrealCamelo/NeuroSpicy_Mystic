@@ -13,6 +13,8 @@ import { OfferCard } from '@/components/OfferCard';
 import { RewardTiers } from '@/components/RewardTiers';
 import { BundleRoadmap } from '@/components/BundleRoadmap';
 import { AudioBookPreview } from '@/components/AudioBookPreview';
+import { FeaturedVideo } from '@/components/FeaturedVideo';
+import { AssessmentTeaser } from '@/components/AssessmentTeaser';
 import { ProofSection } from '@/components/ProofSection';
 import { OldVsNew } from '@/components/OldVsNew';
 import { BenefitGrid } from '@/components/BenefitGrid';
@@ -37,6 +39,7 @@ export default function Home() {
         <Header />
         <main>
           <Hero />
+          <FeaturedVideo />
           <ShortcutCards />
           <StatCounters />
           <LeadMagnetForm />
@@ -58,6 +61,7 @@ export default function Home() {
           <FounderBio />
           <SocialFeed />
           <ReadingCallout />
+          <AssessmentTeaser />
           <TestimonialsFB />
           <FinalCTA />
         </main>

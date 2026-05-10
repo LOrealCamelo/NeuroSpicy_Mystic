@@ -54,22 +54,25 @@ export function AudioBookPreview() {
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-void-900/40 via-transparent to-transparent" aria-hidden />
 
-            {/* Floating play button */}
+            {/* Compact play button — bottom-right so it doesn't cover cover-art text */}
             <button
               onClick={togglePlay}
-              className="absolute inset-0 m-auto flex h-20 w-20 items-center justify-center rounded-full bg-gold shadow-glow-gold transition-transform hover:scale-110"
+              className="group absolute bottom-3 right-3 flex items-center gap-2 rounded-pill bg-void-900/85 px-3.5 py-2 text-2xs font-semibold uppercase tracking-[0.18em] text-starlight shadow-glow-gold backdrop-blur-sm ring-1 ring-gold/60 transition-transform hover:scale-105"
               aria-label={playing ? 'Pause preview' : 'Play 30-second preview'}
             >
-              <svg viewBox="0 0 32 32" width="34" height="34" fill="#2D1B47" aria-hidden>
-                {playing ? (
-                  <>
-                    <rect x="9" y="6" width="4.5" height="20" rx="1" />
-                    <rect x="18.5" y="6" width="4.5" height="20" rx="1" />
-                  </>
-                ) : (
-                  <path d="M10 6 L24 16 L10 26 Z" />
-                )}
-              </svg>
+              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-gold-300 to-gold-600">
+                <svg viewBox="0 0 32 32" width="14" height="14" fill="#2D1B47" aria-hidden>
+                  {playing ? (
+                    <>
+                      <rect x="9" y="6" width="4.5" height="20" rx="1" />
+                      <rect x="18.5" y="6" width="4.5" height="20" rx="1" />
+                    </>
+                  ) : (
+                    <path d="M10 6 L24 16 L10 26 Z" />
+                  )}
+                </svg>
+              </span>
+              <span className="hidden md:inline">{playing ? 'Pause' : 'Preview'}</span>
             </button>
 
             <audio
