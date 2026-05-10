@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google';
+import { ElevenLabsAgent } from '@/components/ElevenLabsAgent';
 import './globals.css';
 
 const cormorant = Cormorant_Garamond({
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     template: '%s · NeuroSpicy Mystic',
   },
   description:
-    'The 2027 PLR vault for divinely distracted witches. 2,000+ rebrandable templates, lifetime access, resell rights — keep 100% of every sale.',
+    'The 2027 vault of rebrandable digital templates for divinely distracted witches. 2,000+ templates, lifetime access, resell rights — keep 100% of every sale.',
   openGraph: {
     title: 'NeuroSpicy Mystic — Stop Creating. Start Selling.',
     description: 'For the Divinely Distracted Goddesses & Starseeds alike.',
@@ -48,7 +49,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${cormorant.variable} ${dmSans.variable}`}>
-      <body className="min-h-screen antialiased">{children}</body>
+      <body className="min-h-screen antialiased">
+        {children}
+        <ElevenLabsAgent />
+      </body>
     </html>
   );
 }

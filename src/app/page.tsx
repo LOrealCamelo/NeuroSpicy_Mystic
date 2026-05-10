@@ -18,6 +18,7 @@ import { ForYouQualifier } from '@/components/ForYouQualifier';
 import { FAQ } from '@/components/FAQ';
 import { Guarantee } from '@/components/Guarantee';
 import { FounderBio } from '@/components/FounderBio';
+import { ReadingCallout } from '@/components/ReadingCallout';
 import { TestimonialsFB } from '@/components/TestimonialsFB';
 import { FinalCTA } from '@/components/FinalCTA';
 import { Footer } from '@/components/Footer';
@@ -50,6 +51,7 @@ export default function Home() {
           <FAQ />
           <Guarantee />
           <FounderBio />
+          <ReadingCallout />
           <TestimonialsFB />
           <FinalCTA />
         </main>

@@ -146,12 +146,28 @@ const config: Config = {
           '0%, 100%': { opacity: '0.6' },
           '50%': { opacity: '1' },
         },
+        'cta-glow': {
+          '0%, 100%': {
+            boxShadow:
+              '0 0 28px 0 rgba(124, 58, 237, 0.5), inset 0 0 0 1px rgba(212, 175, 55, 0.45)',
+          },
+          '50%': {
+            boxShadow:
+              '0 0 56px 6px rgba(124, 58, 237, 0.85), 0 0 28px 0 rgba(212, 175, 55, 0.4), inset 0 0 0 2px rgba(212, 175, 55, 0.85)',
+          },
+        },
+        'shimmer-x': {
+          '0%': { transform: 'translateX(-150%) skewX(-20deg)' },
+          '100%': { transform: 'translateX(250%) skewX(-20deg)' },
+        },
       },
       animation: {
         twinkle: 'twinkle 4s ease-in-out infinite',
         'twinkle-slow': 'twinkle 7s ease-in-out infinite',
         float: 'float 6s ease-in-out infinite',
         'pulse-soft': 'pulse-soft 2.5s ease-in-out infinite',
+        'cta-glow': 'cta-glow 2.6s ease-in-out infinite',
+        'shimmer-x': 'shimmer-x 3.4s ease-in-out infinite',
       },
     },
   },

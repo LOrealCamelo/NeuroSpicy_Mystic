@@ -33,8 +33,10 @@ export function Hero() {
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <a href="#offer" className="btn-primary">
-            <Sparkle size={12} variant="gold" /> {HERO.cta}
+          <a href="#offer" className="btn-cta-hero">
+            <Sparkle size={14} variant="gold" />
+            <span>{HERO.cta}</span>
+            <span aria-hidden>&rarr;</span>
           </a>
           <a href="#what" className="btn-secondary">
             {HERO.ctaSecondary}

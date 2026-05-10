@@ -5,7 +5,7 @@ export const HERO = {
   pill: 'For the Divinely Distracted',
   h1Top: 'Stop Creating.',
   h1Emph: 'Start Selling.',
-  sub: 'The 2027 PLR vault for divinely distracted witches. 2,000+ rebrandable templates. Lifetime access. 100% profit on every resale.',
+  sub: 'The 2027 vault of rebrandable digital templates for divinely distracted witches. 2,000+ templates · lifetime access · 100% profit on every resale.',
   cta: 'Yes, I Want Instant Access',
   ctaSecondary: 'View what’s inside ↓',
   trust: ['One-time payment', 'No subscriptions', 'Instant download'],
@@ -26,7 +26,7 @@ export const SHORTCUT_CARDS = [
   },
   {
     title: 'Keep every dollar you make',
-    body: 'No royalties. No revenue share. PLR + master resell rights. The whole stack is yours forever.',
+    body: 'No royalties. No revenue share. Full resell rights — rebrand each template, sell as your own, keep every dollar forever.',
     icon: 'coin',
     accent: 'turquoise' as const,
   },
@@ -57,7 +57,7 @@ export const THREE_STEPS = [
   {
     n: '03',
     title: 'Keep 100% of every sale',
-    body: 'No revenue share, no royalty, no licensing fee. PLR + master resell rights mean every dollar stays in your pocket.',
+    body: 'No revenue share, no royalty, no licensing fee. Full resell rights mean every dollar stays in your pocket.',
   },
 ];
 
@@ -114,7 +114,7 @@ export const INVENTORY_CATEGORIES = [
       'Money Mindset Planner · Savings Tracker · Abundance Journal',
       'Manifestation Planner · Law of Attraction Planner',
       'Decluttering & Cleaning Planner · Stress Processing Journal',
-      'Master resell rights on every PLR file',
+      'Full resell rights on every template — rebrand and sell as your own',
     ],
     valueUsd: 900,
   },
@@ -225,11 +225,11 @@ export const QUALIFIER = {
 export const FAQ_ITEMS = [
   {
     q: 'What exactly am I getting?',
-    a: 'Lifetime access to 300GB+ of editable PLR templates across 62 bundles — journals, planners, ebooks, courses, sticker packs, coloring pages, meditation scripts, and the NeuroSpicy-exclusive Money Spell Manifestation Guide. Everything is Canva-ready and includes master resell rights.',
+    a: 'Lifetime access to 300GB+ of editable templates across 62 bundles — journals, planners, ebooks, courses, sticker packs, coloring pages, meditation scripts, and the NeuroSpicy-exclusive Money Spell Manifestation Guide. Everything is Canva-ready and includes the right to rebrand and sell each template as your own.',
   },
   {
     q: 'Can I really resell and keep 100%?',
-    a: 'Yes. The vault includes Master Resell Rights (MRR) on every PLR file. Rebrand them, sell them as your own, set your own prices, keep every dollar. The Money Spell Guide is the one NeuroSpicy original — it’s yours to keep but not to resell.',
+    a: 'Yes. Every template in the vault comes with full resell rights — you rebrand them, sell them as your own, set your own prices, keep every dollar. The Money Spell Guide is the one NeuroSpicy original — it’s yours to keep but not to resell.',
   },
   {
     q: 'Do I need design skills?',

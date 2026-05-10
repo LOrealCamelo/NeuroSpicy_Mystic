@@ -13,8 +13,10 @@ export function FinalCTA() {
           <span className="em-magenta italic">Get instant access.</span>
         </h2>
         <Filigree className="!my-8" />
-        <CheckoutButton productId="witch-vault" className="btn-primary text-base md:text-lg !px-9 !py-4">
-          <Sparkle size={14} variant="gold" /> Yes! I Want Instant Access →
+        <CheckoutButton productId="witch-vault" className="btn-cta-hero">
+          <Sparkle size={16} variant="gold" />
+          <span>Yes! I Want Instant Access</span>
+          <span aria-hidden>&rarr;</span>
         </CheckoutButton>
         <p className="mt-4 text-2xs uppercase tracking-[0.32em] text-moonlight/60">
           $67 one-time · Lifetime access · 100% profit

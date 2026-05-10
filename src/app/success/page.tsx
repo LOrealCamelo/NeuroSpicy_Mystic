@@ -225,7 +225,7 @@ export default async function SuccessPage({ searchParams }: Props) {
                   <ul className="mt-4 space-y-2 text-sm text-moonlight/85">
                     {[
                       'Pass the Master Resell Rights on to your customers (they buy the finished product — not the rights to resell)',
-                      'List the bundle as a "PLR" or "resell rights" product on Whop, Beacons, or PLR marketplaces',
+                      'List the whole bundle as "rebrandable templates" or "resell rights" on Whop, Beacons, or template marketplaces',
                       'Use NeuroSpicy Mystic mockups, ad creative, or sales copy in your own listings',
                       'Upload the templates to free Facebook groups, swap groups, or Drive folders shared publicly',
                       'Sell individual templates under $6, or the full bundle under $34',

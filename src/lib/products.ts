@@ -32,9 +32,9 @@ export const products: Product[] = [
   {
     id: 'witch-vault',
     name: 'NeuroSpicy Witch Vault',
-    tagline: 'The 2027 PLR vault for divinely distracted witches',
+    tagline: 'The 2027 rebrandable-templates vault for divinely distracted witches',
     bullets: [
-      '2,000+ rebrandable PLR templates',
+      '2,000+ rebrandable digital templates',
       'Lifetime access · sell as your own forever',
       'Canva-ready · keep 100% of every sale',
     ],
@@ -54,7 +54,7 @@ export const products: Product[] = [
     tagline: 'Real magic for real abundance — by L’Oreal',
     bullets: [
       'Step-by-step ritual + workbook',
-      'NeuroSpicy original — not PLR',
+      'NeuroSpicy original — written by L’Oreal',
       'Pairs with the Witch Vault for full money-mindset alignment',
     ],
     priceUsd: 17,
