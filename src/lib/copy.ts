@@ -317,7 +317,7 @@ export const FOOTER_LINKS = {
   shop: [
     { label: 'NeuroSpicy Vault', href: '#offer' },
     { label: 'Free Money Spell Guide', href: '#money-spell' },
-    { label: 'Stan Store · 1:1 readings', href: 'https://stan.store/neurospicy_mystic' }, // [REVIEW] confirm Stan URL
+    { label: 'Stan Store · 1:1 readings', href: 'https://stan.store/neurospicymystic' },
     { label: 'Etsy · NeuroSpicy Boutique', href: 'https://www.etsy.com/shop/NeuroSpicyBoutique' }, // [REVIEW] confirm Etsy URL
   ],
   legal: [
