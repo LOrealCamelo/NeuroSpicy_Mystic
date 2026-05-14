@@ -3,7 +3,7 @@ services:
     name: neurospicy-mystic
     env: node
     plan: starter
-    buildCommand: npm install && npm run build
-    startCommand: npm run start
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm run build
+    startCommand: pnpm run start
     healthCheckPath: /
     autoDeploy: true
