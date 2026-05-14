@@ -19,7 +19,11 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_URL ?? 'https://neurospicymystic.com'),
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_URL && process.env.NEXT_PUBLIC_URL.trim() !== ''
+      ? process.env.NEXT_PUBLIC_URL
+      : 'https://neurospicymystic.com',
+  ),
   title: {
     default: 'NeuroSpicy Mystic — Stop Creating. Start Selling.',
     template: '%s · NeuroSpicy Mystic',
