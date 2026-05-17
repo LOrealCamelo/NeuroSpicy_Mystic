@@ -1,0 +1,70 @@
+{
+  "_note": "Drive URLs provided by L'Oreal on 2026-05-17. Sandbox cannot download from drive.google.com (host_not_allowed), so the HTML embeds the live Drive URLs via /uc?export=view&id=... and the PDF/EPUB use labeled placeholder cards. To bake real images into PDF/EPUB, download each file into this directory as the slot id (e.g. altar_flatlay.jpg) and re-run python3 ebook/build.py.",
+  "cover": {
+    "drive_id": "1bOvRRmTJ83V8e20MC6s6U3MNEyjZVprn",
+    "url": "https://drive.google.com/uc?export=view&id=1bOvRRmTJ83V8e20MC6s6U3MNEyjZVprn",
+    "caption": "Full-bleed cover image",
+    "local": null
+  },
+  "altar_flatlay": {
+    "drive_id": "1TjKm11X3o3Dqt4aPo83kGSMRq0OcAx26",
+    "url": "https://drive.google.com/uc?export=view&id=1TjKm11X3o3Dqt4aPo83kGSMRq0OcAx26",
+    "caption": "Flat lay of your actual altar — Dead Sea salt, $2 bill, yen, herbs",
+    "local": null
+  },
+  "qr_playlist": {
+    "drive_id": "1jcQMWiNfBZ7IYHbA2xJq5RYe2ne3Pw4X",
+    "url": "https://drive.google.com/uc?export=view&id=1jcQMWiNfBZ7IYHbA2xJq5RYe2ne3Pw4X",
+    "caption": "QR code to the '2027 Abundance' playlist",
+    "local": null
+  },
+  "salt_circle": {
+    "drive_id": "1JIIIbvB-h76ctZkan206w4_czWZELGDm",
+    "url": "https://drive.google.com/uc?export=view&id=1JIIIbvB-h76ctZkan206w4_czWZELGDm",
+    "caption": "Sprinkling Dead Sea salt clockwise",
+    "local": null
+  },
+  "burning_paper": {
+    "drive_id": "183rox3WhAhdl1bg1OzcmOMUjliZHucqb",
+    "url": "https://drive.google.com/uc?export=view&id=183rox3WhAhdl1bg1OzcmOMUjliZHucqb",
+    "caption": "Burning paper in the candle flame",
+    "local": null
+  },
+  "tiktok_live_burn": {
+    "drive_id": "1PH1HN7Ne_P0Z5ZA-aliN8hrBfXdbkBda",
+    "url": "https://drive.google.com/uc?export=view&id=1PH1HN7Ne_P0Z5ZA-aliN8hrBfXdbkBda",
+    "caption": "TikTok Live screenshot — burning the paper",
+    "local": null
+  },
+  "wax_top": {
+    "drive_id": "1jG-tgrgQ1oqmXwnpWnPRe9NIe4lZ_Pll",
+    "url": "https://drive.google.com/uc?export=view&id=1jG-tgrgQ1oqmXwnpWnPRe9NIe4lZ_Pll",
+    "caption": "Wax reading — top angle",
+    "local": null
+  },
+  "wax_side": {
+    "drive_id": "1KYtJE535MyM3g352CU5tLsl5DB3oB0Y9",
+    "url": "https://drive.google.com/uc?export=view&id=1KYtJE535MyM3g352CU5tLsl5DB3oB0Y9",
+    "caption": "Wax reading — side angle",
+    "local": null
+  },
+  "wax_closeup": {
+    "drive_id": "1gl-2LQJMdb9yGXU1KTu3EwL3Uo5zVo2U",
+    "url": "https://drive.google.com/uc?export=view&id=1gl-2LQJMdb9yGXU1KTu3EwL3Uo5zVo2U",
+    "caption": "Wax reading — close-up",
+    "local": null
+  },
+  "wax_roses": {
+    "drive_id": "1MabQjy74SNhnJ_Ar6FhY4cMXI1zSRBxp",
+    "url": "https://drive.google.com/uc?export=view&id=1MabQjy74SNhnJ_Ar6FhY4cMXI1zSRBxp",
+    "caption": "Wax showing rose-petal layers",
+    "local": null
+  },
+  "extras": [
+    { "drive_id": "12XNda-pTz8jHVL1mLl4VXSZ1ncJBDHc2", "url": "https://drive.google.com/uc?export=view&id=12XNda-pTz8jHVL1mLl4VXSZ1ncJBDHc2" },
+    { "drive_id": "1UQg4GINNoxq15jf1fHwT2ooRat61qgc8", "url": "https://drive.google.com/uc?export=view&id=1UQg4GINNoxq15jf1fHwT2ooRat61qgc8" },
+    { "drive_id": "1_w9WPPxSJpXoIaY1cf5v7LrjsJ8kZi3O", "url": "https://drive.google.com/uc?export=view&id=1_w9WPPxSJpXoIaY1cf5v7LrjsJ8kZi3O" },
+    { "drive_id": "142HvIqxrzn5TgmW2-rQnFN1tB1eueX6C", "url": "https://drive.google.com/uc?export=view&id=142HvIqxrzn5TgmW2-rQnFN1tB1eueX6C" },
+    { "drive_id": "1dGmk7zN9d6hwzmbVnbb84cakpmbZ-O50", "url": "https://drive.google.com/uc?export=view&id=1dGmk7zN9d6hwzmbVnbb84cakpmbZ-O50" }
+  ]
+}
